@@ -5,7 +5,7 @@ from chunker import chunk_text
 from analyser import find_subsection
 
 def main():
-    file_path = '../data/contracts/Vendor_Agreement_Template.pdf'
+    file_path = '../data/contracts/Form_Of_Merger_Agreement.pdf'
 
     # Parse the PDF
     contract_text, page_texts = parse_pdf(file_path)

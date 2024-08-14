@@ -19,7 +19,7 @@ def get_metadata(file_path):
     return metadata
 
 if __name__ == "__main__":
-    file_path = '../data/contracts/Vendor_Agreement_Template.pdf'
+    file_path = '../data/contracts/Form_Of_Merger_Agreement.pdf'
     contract_text, page_texts = parse_pdf(file_path)
     metadata = get_metadata(file_path)
     print("Metadata:", metadata)
