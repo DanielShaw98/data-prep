@@ -1,0 +1,9 @@
+# PDF parsing and manipulation
+pymupdf
+
+# OpenAI API client
+openai
+
+# For any additional processing or utilities
+pandas
+transformers

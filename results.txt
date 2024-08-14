@@ -1,0 +1,821 @@
+(data-prep) ➜  src python main.py
+Total length of parsed text: 58353 characters
+Metadata: {'format': 'PDF 1.7', 'title': 'Microsoft Word - Vendor Agreement Template-  02.2021', 'author': 'BHama', 'subject': '', 'keywords': '', 'creator': '', 'producer': 'Microsoft: Print To PDF', 'creationDate': "D:20220121115248-05'00'", 'modDate': "D:20220121115248-05'00'", 'trapped': '', 'encryption': None, 'page_count': 20}
+Total Pages: 20
+Text Chunked into 89 chunks
+
+Relevant Chunks Found:
+--- Relevant Result from Pages [17] ---
+The clause that describes the termination conditions in this contract is found in ARTICLE 8, specifically under 8.1.1. It states that the Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion.
+
+
+
+
+Model: gpt-4
+Updated: system content - "You are a helpful legal assistant with expertise in analyzing and interpreting legal documents. "
+                          "Your task is to review the provided text and identify relevant clauses or sections based on the prompt. "
+
+Total length of parsed text: 58353 characters
+Metadata: {'format': 'PDF 1.7', 'title': 'Microsoft Word - Vendor Agreement Template-  02.2021', 'author': 'BHama', 'subject': '', 'keywords': '', 'creator': '', 'producer': 'Microsoft: Print To PDF', 'creationDate': "D:20220121115248-05'00'", 'modDate': "D:20220121115248-05'00'", 'trapped': '', 'encryption': None, 'page_count': 20}
+Total Pages: 20
+Text Chunked into 89 chunks
+
+Relevant Chunks Found:
+--- Relevant Result from Pages [9] ---
+The text provided does not contain any clause or section that specifically describes the termination conditions in the contract.
+
+--- Relevant Result from Pages [17] ---
+ARTICLE 8
+TERM AND TERMINATION
+
+8.1
+Term
+
+8.1.1
+This Agreement shall be in full force and effect from the Effective Date until all Vendor
+Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion.
+None of the expiry, suspension or revocation of a licence in respect of the vendor or builder nor
+the refusal, suspension or revocation of a QFE Confirmation or Enrolment Confirmation will affect
+the validity or enforceability of the Agreement.
+
+
+
+
+Model: gpt-4o-mini
+Updated: Add tracking of line numbers
+
+Total length of parsed text: 58353 characters
+Metadata: {'format': 'PDF 1.7', 'title': 'Microsoft Word - Vendor Agreement Template-  02.2021', 'author': 'BHama', 'subject': '', 'keywords': '', 'creator': '', 'producer': 'Microsoft: Print To PDF', 'creationDate': "D:20220121115248-05'00'", 'modDate': "D:20220121115248-05'00'", 'trapped': '', 'encryption': None, 'page_count': 20}
+Total Pages: 20
+Text Chunked into 89 chunks
+
+Relevant Chunks Found:
+--- Relevant Result from Chunk 76 (Pages: [17], Lines: [12, 15, 17, 19, 25, 27]) ---
+The clause that describes the termination conditions in this contract can be found in ARTICLE 8, specifically under section 8.1.1.
+
+**Details:**
+- **Clause:** 8.1.1
+- **Content:** This section states that the Agreement shall remain in effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion. It also mentions that the expiry, suspension, or revocation of a license related to the vendor or builder, as well as the refusal, suspension, or revocation of a QFE Confirmation or Enrolment Confirmation, will not affect the validity or enforceability of the Agreement.
+
+**Page Number:** 17
+**Line Numbers:** 12, 15, 17, 19
+
+
+
+
+Model: gpt-4o-mini
+Updated: Requested just the starting line number of where the relevant clause is
+
+Total length of parsed text: 58353 characters
+Metadata: {'format': 'PDF 1.7', 'title': 'Microsoft Word - Vendor Agreement Template-  02.2021', 'author': 'BHama', 'subject': '', 'keywords': '', 'creator': '', 'producer': 'Microsoft: Print To PDF', 'creationDate': "D:20220121115248-05'00'", 'modDate': "D:20220121115248-05'00'", 'trapped': '', 'encryption': None, 'page_count': 20}
+Total Pages: 20
+Text Chunked into 89 chunks
+
+Relevant Chunks Found:
+--- Relevant Result from Chunk 76 (Pages: [17], Lines: [12, 15, 17, 19, 25, 27]) ---
+The termination conditions can be found in the following clause:
+
+**Page 17, Starting Line 12:**
+- **8.1 Term**
+- **8.1.1 This Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion. None of the expiry, suspension or revocation of a licence in respect of the vendor or builder nor the refusal, suspension or revocation of a QFE Confirmation or Enrolment Confirmation will affect the validity or enforceability of the Agreement.**
+
+This section outlines the duration of the agreement and conditions under which it remains in effect, which is relevant to termination.
+
+
+
+
+
+Model: gpt-4o-mini
+Updated: Adjusted prompt to return result as json object with page number, line start, line end and clause
+
+Relevant Chunks Found:
+[
+    {
+        "relevant_chunks_found": 1,
+        "page": 17,
+        "line_start": 12,
+        "line_end": 15,
+        "clause": "This Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion."
+    }
+]
+
+
+
+
+Model: gpt-4o-mini
+Update: Changed the prompt to find anything relating to indemnity to have multiple results
+
+Total length of parsed text: 58353 characters
+Metadata: {'format': 'PDF 1.7', 'title': 'Microsoft Word - Vendor Agreement Template-  02.2021', 'author': 'BHama', 'subject': '', 'keywords': '', 'creator': '', 'producer': 'Microsoft: Print To PDF', 'creationDate': "D:20220121115248-05'00'", 'modDate': "D:20220121115248-05'00'", 'trapped': '', 'encryption': None, 'page_count': 20}
+Total Pages: 20
+Text Chunked into 89 chunks
+Processing chunk 1/89
+Processing chunk 2/89
+Processing chunk 3/89
+Processing chunk 4/89
+Processing chunk 5/89
+Processing chunk 6/89
+Processing chunk 7/89
+Processing chunk 8/89
+Processing chunk 9/89
+Processing chunk 10/89
+Processing chunk 11/89
+Processing chunk 12/89
+Processing chunk 13/89
+Processing chunk 14/89
+Processing chunk 15/89
+Processing chunk 16/89
+Processing chunk 17/89
+Processing chunk 18/89
+Processing chunk 19/89
+Failed to decode JSON response. Content received:
+```json
+{
+  "relevant_chunks_found": 0,
+  "entries": []
+}
+```
+Processing chunk 20/89
+Processing chunk 21/89
+Processing chunk 22/89
+Processing chunk 23/89
+Processing chunk 24/89
+Processing chunk 25/89
+Processing chunk 26/89
+Processing chunk 27/89
+Processing chunk 28/89
+Processing chunk 29/89
+Processing chunk 30/89
+Processing chunk 31/89
+Processing chunk 32/89
+Processing chunk 33/89
+Failed to decode JSON response. Content received:
+```json
+{
+  "relevant_chunks_found": 0,
+  "entries": []
+}
+```
+Processing chunk 34/89
+Processing chunk 35/89
+Processing chunk 36/89
+Processing chunk 37/89
+Processing chunk 38/89
+Failed to decode JSON response. Content received:
+```json
+{
+  "relevant_chunks_found": 0,
+  "entries": []
+}
+```
+Processing chunk 39/89
+Processing chunk 40/89
+Processing chunk 41/89
+Failed to decode JSON response. Content received:
+```json
+{
+  "relevant_chunks_found": 0,
+  "entries": []
+}
+```
+Processing chunk 42/89
+Processing chunk 43/89
+Processing chunk 44/89
+Processing chunk 45/89
+Processing chunk 46/89
+Processing chunk 47/89
+Processing chunk 48/89
+Processing chunk 49/89
+Processing chunk 50/89
+Processing chunk 51/89
+Processing chunk 52/89
+Processing chunk 53/89
+Processing chunk 54/89
+Processing chunk 55/89
+Processing chunk 56/89
+Processing chunk 57/89
+Processing chunk 58/89
+Processing chunk 59/89
+Processing chunk 60/89
+Processing chunk 61/89
+Processing chunk 62/89
+Processing chunk 63/89
+Processing chunk 64/89
+Processing chunk 65/89
+Processing chunk 66/89
+Processing chunk 67/89
+Processing chunk 68/89
+Processing chunk 69/89
+Processing chunk 70/89
+Processing chunk 71/89
+Processing chunk 72/89
+Processing chunk 73/89
+Processing chunk 74/89
+Processing chunk 75/89
+Processing chunk 76/89
+Processing chunk 77/89
+Processing chunk 78/89
+Processing chunk 79/89
+Processing chunk 80/89
+Processing chunk 81/89
+Processing chunk 82/89
+Processing chunk 83/89
+Processing chunk 84/89
+Processing chunk 85/89
+Processing chunk 86/89
+Processing chunk 87/89
+Processing chunk 88/89
+Failed to decode JSON response. Content received:
+```json
+{
+  "relevant_chunks_found": 0,
+  "entries": []
+}
+```
+Processing chunk 89/89
+
+Relevant Chunks Found:
+[
+    {
+        "page": 2,
+        "line_start": 21,
+        "line_end": 24,
+        "clause": "\u201cIndemnified Amounts\u201d means the amounts to be paid by the Vendor under Section 4.1;"
+    },
+    {
+        "page": 3,
+        "line_start": 20,
+        "line_end": 20,
+        "clause": "costs incurred by Tarion relating to a claim or potential claim, including legal fees, expert fees and other consultant fees on a full indemnity basis,"
+    },
+    {
+        "page": 3,
+        "line_start": 23,
+        "line_end": 23,
+        "clause": "damages suffered by Tarion in respect of a claim or potential claim,"
+    },
+    {
+        "page": 3,
+        "line_start": 24,
+        "line_end": 24,
+        "clause": "all costs incurred by Tarion in enforcing the obligations, liabilities and indebtedness of a vendor to Tarion,"
+    },
+    {
+        "page": 11,
+        "line_start": 8,
+        "line_end": 18,
+        "clause": "furnish Tarion with such cash collateral, letters of credit, surety bonds, deposit trust agreements, guarantees, indemnities, covenants not to encumber, undertakings, declarations, collateral charges, and/or other security or other assurances as Tarion may require to secure and assure the performance of the Vendor Obligations, and to address risk for Tarion and the guarantee fund under the ONHWP Act (\u201cSecurity\u201d): (a) in respect of the Homes; and (b) in the aggregate having regard to the obligations owed to Tarion and purchasers and owners in respect of all homes of the Vendor and its affiliates sold or constructed under the ONHWP Act;"
+    },
+    {
+        "page": 13,
+        "line_start": 2,
+        "line_end": 10,
+        "clause": "The Vendor shall fully indemnify and save Tarion harmless from and against any losses, costs, claims, damages and/or liabilities which may arise resulting from or by virtue of: the failure of the Vendor to perform or fulfill any of the Vendor Obligations; the performance or fulfillment, by Tarion in its sole judgment, of any of the Vendor Obligations; and/or"
+    },
+    {
+        "page": 13,
+        "line_start": 18,
+        "line_end": 23,
+        "clause": "Provided that the Vendor shall have no obligation under this Agreement to indemnify Tarion for any losses or costs incurred related to matters that are not warranted or compensable by the Vendor under the ONHWP Act, but this exclusion does not affect Tarion\u2019s subrogation rights, or rights under an assignment of any cause of action from another person."
+    },
+    {
+        "page": 13,
+        "line_start": 27,
+        "line_end": 28,
+        "clause": "4.2 Continuing Indemnity"
+    },
+    {
+        "page": 13,
+        "line_start": 30,
+        "line_end": 38,
+        "clause": "The indemnity herein shall be a continuing indemnity for the payment of all Indemnified Amounts and shall apply to and secure any ultimate balance thereof due or remaining unpaid to Tarion. The indemnity herein shall not be considered as wholly or partially satisfied by the intermediate payment or satisfaction at any time of all or any part of the Indemnified Amounts. All payments received by Tarion from the Vendor or any other person in respect of the Indemnified Amounts shall be applied as payments in gross without any right on the part of the Vendor to claim the benefit of any such payments until payment in full of all Indemnified Amounts."
+    },
+    {
+        "page": 14,
+        "line_start": 40,
+        "line_end": 47,
+        "clause": "The indemnity herein shall be reinstated if at any time any payment of any Indemnified Amounts is rescinded or must otherwise be returned by Tarion upon any Insolvency Proceeding of or affecting the Vendor or for any other reason whatsoever, all as though such payment had not been made. Tarion may concede or compromise any claim that such payment ought to be rescinded or otherwise returned, without discharging, diminishing or in any way affecting the liability of the Vendor hereunder or the effect of this Section."
+    },
+    {
+        "page": 14,
+        "line_start": 6,
+        "line_end": 11,
+        "clause": "Upon the occurrence and during the continuance of a breach of this Agreement, the Vendor shall, on demand being made by Tarion, forthwith pay to Tarion or perform or cause the performance of all Vendor Obligations for which such demand was made. All Indemnified Amounts shall be payable by the Vendor to Tarion, forthwith upon demand being made by Tarion."
+    },
+    {
+        "page": 14,
+        "line_start": 13,
+        "line_end": 19,
+        "clause": "Tarion shall not be bound to make any demand on or to seek or exhaust its recourse against the Vendor or any other person or to realize on any Security or assurances held by Tarion in respect of the Indemnified Amounts before being entitled to demand payment from or performance by the Vendor and enforce its rights under this Agreement and the Vendor hereby renounces all benefits of discussion and division."
+    },
+    {
+        "page": 14,
+        "line_start": 21,
+        "line_end": 25,
+        "clause": "A statement in writing of Tarion as to the amount of the Vendor Obligations, the Indemnified Amounts and all other amounts payable hereunder shall be binding upon the Vendor and conclusive against it in the absence of manifest error."
+    },
+    {
+        "page": 14,
+        "line_start": 29,
+        "line_end": 35,
+        "clause": "Tarion shall be at liberty to appropriate or to refrain from appropriating any payment made by, or monies received by Tarion from, the Vendor or others to any portion of the Indemnified Amounts and from time to time to revoke or alter any such appropriation, all as Tarion may from time to time in its sole and sole and absolute discretion determine but excluding for greater certainty the HCRA Licensee fees if collected by Tarion."
+    },
+    {
+        "page": 15,
+        "line_start": 4,
+        "line_end": 10,
+        "clause": "Defects in Creation of Vendor Obligations do Not Undermine the Indemnity"
+    },
+    {
+        "page": 15,
+        "line_start": 14,
+        "line_end": 14,
+        "clause": "All obligations, liabilities and indebtedness purporting to be incurred by the Vendor in favour of Tarion shall be deemed to form part of the Vendor Obligations and/or Indemnified Amounts even though the Vendor may not be a legal entity or the incurring of such obligations, liabilities or indebtedness was irregularly, defectively or informally effected or in excess of the capacity or powers of the Vendor or its directors, officers, partners, employees or agents and notwithstanding that Tarion has specific notice of the capacity and powers of the Vendor or its directors, officers, partners, employees or agents."
+    },
+    {
+        "page": 16,
+        "line_start": 51,
+        "line_end": 51,
+        "clause": "any other circumstance which might otherwise constitute in whole or in part a defence available to, or a discharge of, the Vendor or any other person in respect of the Indemnified Amounts (otherwise than by reason of the payment of those Indemnified Amounts to Tarion)."
+    },
+    {
+        "page": 16,
+        "line_start": 56,
+        "line_end": 59,
+        "clause": "Tarion may from time to time in its sole and absolute discretion without discharging, diminishing or in any way affecting the liability of the Vendor hereunder:"
+    },
+    {
+        "page": 16,
+        "line_start": 7,
+        "line_end": 10,
+        "clause": "make or continue to make any accommodation available to the Vendor constituting or relating to the Vendor Obligations or the Indemnified Amounts;"
+    },
+    {
+        "page": 16,
+        "line_start": 39,
+        "line_end": 43,
+        "clause": "agree with the Vendor or any other person liable directly or as surety for all or any part of the Vendor Obligations and/or Indemnified Amounts to do anything described in this Section 7.3;"
+    },
+    {
+        "page": 16,
+        "line_start": 45,
+        "line_end": 45,
+        "clause": "No loss of or in respect of any Security or additional covenant relating to the Vendor Obligations, the Indemnified Amounts, or any part thereof, whether occasioned through the fault of Tarion or otherwise, shall discharge, diminish or in any way affect the liability of the Vendor hereunder."
+    },
+    {
+        "page": 17,
+        "line_start": 12,
+        "line_end": 15,
+        "clause": "This Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion."
+    },
+    {
+        "page": 17,
+        "line_start": 29,
+        "line_end": 37,
+        "clause": "The Vendor shall pay to Tarion on demand all reasonable costs and expenses (on a full indemnity basis) of Tarion, its officers, employees and agents and any receiver or receiver-manager appointed by it or by a court in connection with this Agreement, including, without limitation, in connection with: any actual or proposed amendment or modification hereof or any waiver hereunder and all instruments supplemental or ancillary thereto; and the defence, establishment, protection or enforcement of any of the rights or remedies of Tarion under this Agreement including, without limitation, all costs and expenses of establishing the validity and enforceability of, or of collection of amounts owing under this Agreement;"
+    },
+    {
+        "page": 18,
+        "line_start": 42,
+        "line_end": 42,
+        "clause": "and further including, without limitation, all of the reasonable fees, expenses and disbursements of Tarion\u2019s lawyers, on a full indemnity basis, incurred in connection therewith and all sales or value-added taxes payable by Tarion (whether refundable or not) on all such costs and expenses."
+    }
+]
+
+
+
+
+Model: gpt-4o-mini
+Update: Trying to debug and get more accurate results
+
+Total length of parsed text: 58353 characters
+Metadata: {'format': 'PDF 1.7', 'title': 'Microsoft Word - Vendor Agreement Template-  02.2021', 'author': 'BHama', 'subject': '', 'keywords': '', 'creator': '', 'producer': 'Microsoft: Print To PDF', 'creationDate': "D:20220121115248-05'00'", 'modDate': "D:20220121115248-05'00'", 'trapped': '', 'encryption': None, 'page_count': 20}
+Total Pages: 20
+Text Chunked into 89 chunks
+Processing chunk 1/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 2/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 3/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 4/89
+Processing chunk 5/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 6/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 7/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 8/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 9/89
+Processing chunk 10/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 11/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 12/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 13/89
+Processing chunk 14/89
+Processing chunk 15/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 16/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 17/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 18/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 19/89
+Failed to decode JSON response. Content received:
+```json
+{
+  "relevant_chunks_found": 0,
+  "entries": []
+}
+```
+Processing chunk 20/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 21/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 22/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 23/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 24/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 25/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 26/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 27/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 28/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 29/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 30/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 31/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 32/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 33/89
+Processing chunk 34/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 35/89
+Processing chunk 36/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 37/89
+Processing chunk 38/89
+Processing chunk 39/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 40/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 41/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 42/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 43/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 44/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 45/89
+Processing chunk 46/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 47/89
+Processing chunk 48/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 49/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 50/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 51/89
+Processing chunk 52/89
+Processing chunk 53/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 54/89
+Processing chunk 55/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 56/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 57/89
+Processing chunk 58/89
+Processing chunk 59/89
+Processing chunk 60/89
+Processing chunk 61/89
+Processing chunk 62/89
+Processing chunk 63/89
+Processing chunk 64/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 65/89
+Processing chunk 66/89
+Processing chunk 67/89
+Failed to decode JSON response. Content received:
+```json
+{
+  "relevant_chunks_found": 0,
+  "entries": []
+}
+```
+Processing chunk 68/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 69/89
+Processing chunk 70/89
+Processing chunk 71/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 72/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 73/89
+Processing chunk 74/89
+Processing chunk 75/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 76/89
+Processing chunk 77/89
+Processing chunk 78/89
+Processing chunk 79/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 80/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 81/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 82/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 83/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 84/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 85/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 86/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 87/89
+Failed to decode JSON response. Content received:
+nothing found.
+Processing chunk 88/89
+Processing chunk 89/89
+Failed to decode JSON response. Content received:
+nothing found.
+
+Relevant Chunks Found:
+[
+    {
+        "page": 2,
+        "line_start": 19,
+        "line_end": 19,
+        "clause": "\u201cIndemnified Amounts\u201d means the amounts to be paid by the Vendor under Section 4.1;"
+    },
+    {
+        "page": 3,
+        "line_start": 20,
+        "line_end": 20,
+        "clause": "costs incurred by Tarion relating to a claim or potential claim, including legal fees, expert fees and other consultant fees on a full indemnity basis,"
+    },
+    {
+        "page": 3,
+        "line_start": 23,
+        "line_end": 23,
+        "clause": "damages suffered by Tarion in respect of a claim or potential claim,"
+    },
+    {
+        "page": 3,
+        "line_start": 24,
+        "line_end": 24,
+        "clause": "all costs incurred by Tarion in enforcing the obligations, liabilities and indebtedness of a vendor to Tarion, and"
+    },
+    {
+        "page": 3,
+        "line_start": 26,
+        "line_end": 28,
+        "clause": "applicable administration fees, penalties, taxes and interest on the above."
+    },
+    {
+        "page": 11,
+        "line_start": 8,
+        "line_end": 18,
+        "clause": "furnish Tarion with such cash collateral, letters of credit, surety bonds, deposit trust agreements, guarantees, indemnities, covenants not to encumber, undertakings, declarations, collateral charges, and/or other security or other assurances as Tarion may require to secure and assure the performance of the Vendor Obligations, and to address risk for Tarion and the guarantee fund under the ONHWP Act (\u201cSecurity\u201d): (a) in respect of the Homes; and (b) in the aggregate having regard to the obligations owed to Tarion and purchasers and owners in respect of all homes of the Vendor and its affiliates sold or constructed under the ONHWP Act;"
+    },
+    {
+        "page": 13,
+        "line_start": 2,
+        "line_end": 6,
+        "clause": "The Vendor shall fully indemnify and save Tarion harmless from and against any losses, costs, claims, damages and/or liabilities which may arise resulting from or by virtue of: the failure of the Vendor to perform or fulfill any of the Vendor Obligations; the performance or fulfillment, by Tarion in its sole judgment, of any of the Vendor Obligations;"
+    },
+    {
+        "page": 13,
+        "line_start": 18,
+        "line_end": 23,
+        "clause": "Provided that the Vendor shall have no obligation under this Agreement to indemnify Tarion for any losses or costs incurred related to matters that are not warranted or compensable by the Vendor under the ONHWP Act, but this exclusion does not affect Tarion\u2019s subrogation rights, or rights under an assignment of any cause of action from another person."
+    },
+    {
+        "page": 13,
+        "line_start": 27,
+        "line_end": 28,
+        "clause": "4.2 Continuing Indemnity"
+    },
+    {
+        "page": 13,
+        "line_start": 30,
+        "line_end": 38,
+        "clause": "The indemnity herein shall be a continuing indemnity for the payment of all Indemnified Amounts and shall apply to and secure any ultimate balance thereof due or remaining unpaid to Tarion. The indemnity herein shall not be considered as wholly or partially satisfied by the intermediate payment or satisfaction at any time of all or any part of the Indemnified Amounts. All payments received by Tarion from the Vendor or any other person in respect of the Indemnified Amounts shall be applied as payments in gross without any right on the part of the Vendor to claim the benefit of any such payments until payment in full of all Indemnified Amounts."
+    },
+    {
+        "page": 14,
+        "line_start": 3,
+        "line_end": 11,
+        "clause": "The indemnity herein shall be reinstated if at any time any payment of any Indemnified Amounts is rescinded or must otherwise be returned by Tarion upon any Insolvency Proceeding of or affecting the Vendor or for any other reason whatsoever, all as though such payment had not been made. Tarion may concede or compromise any claim that such payment ought to be rescinded or otherwise returned, without discharging, diminishing or in any way affecting the liability of the Vendor hereunder or the effect of this Section."
+    },
+    {
+        "page": 14,
+        "line_start": 6,
+        "line_end": 11,
+        "clause": "Upon the occurrence and during the continuance of a breach of this Agreement, the Vendor shall, on demand being made by Tarion, forthwith pay to Tarion or perform or cause the performance of all Vendor Obligations for which such demand was made. All Indemnified Amounts shall be payable by the Vendor to Tarion, forthwith upon demand being made by Tarion."
+    },
+    {
+        "page": 14,
+        "line_start": 13,
+        "line_end": 19,
+        "clause": "Tarion shall not be bound to make any demand on or to seek or exhaust its recourse against the Vendor or any other person or to realize on any Security or assurances held by Tarion in respect of the Indemnified Amounts before being entitled to demand payment from or performance by the Vendor and enforce its rights under this Agreement and the Vendor hereby renounces all benefits of discussion and division."
+    },
+    {
+        "page": 14,
+        "line_start": 21,
+        "line_end": 25,
+        "clause": "A statement in writing of Tarion as to the amount of the Vendor Obligations, the Indemnified Amounts and all other amounts payable hereunder shall be binding upon the Vendor and conclusive against it in the absence of manifest error."
+    },
+    {
+        "page": 14,
+        "line_start": 29,
+        "line_end": 35,
+        "clause": "Tarion shall be at liberty to appropriate or to refrain from appropriating any payment made by, or monies received by Tarion from, the Vendor or others to any portion of the Indemnified Amounts and from time to time to revoke or alter any such appropriation, all as Tarion may from time to time in its sole and sole and absolute discretion determine but excluding for greater certainty the HCRA Licensee fees if collected by Tarion."
+    },
+    {
+        "page": 15,
+        "line_start": 10,
+        "line_end": 12,
+        "clause": "Defects in Creation of Vendor Obligations do Not Undermine the Indemnity"
+    },
+    {
+        "page": 15,
+        "line_start": 14,
+        "line_end": 14,
+        "clause": "All obligations, liabilities and indebtedness purporting to be incurred by the Vendor in favour of Tarion shall be deemed to form part of the Vendor Obligations and/or Indemnified Amounts even though the Vendor may not be a legal entity or the incurring of such obligations, liabilities or indebtedness was irregularly, defectively or informally effected or in excess of the capacity or powers of the Vendor or its directors, officers, partners, employees or agents and notwithstanding that Tarion has specific notice of the capacity and powers of the Vendor or its directors, officers, partners, employees or agents."
+    },
+    {
+        "page": 16,
+        "line_start": 51,
+        "line_end": 51,
+        "clause": "any other circumstance which might otherwise constitute in whole or in part a defence available to, or a discharge of, the Vendor or any other person in respect of the Indemnified Amounts (otherwise than by reason of the payment of those Indemnified Amounts to Tarion)."
+    },
+    {
+        "page": 16,
+        "line_start": 57,
+        "line_end": 59,
+        "clause": "Tarion may from time to time in its sole and absolute discretion without discharging, diminishing or in any way affecting the liability of the Vendor hereunder:"
+    },
+    {
+        "page": 16,
+        "line_start": 39,
+        "line_end": 43,
+        "clause": "agree with the Vendor or any other person liable directly or as surety for all or any part of the Vendor Obligations and/or Indemnified Amounts to do anything described in this Section 7.3;"
+    },
+    {
+        "page": 16,
+        "line_start": 45,
+        "line_end": 45,
+        "clause": "No loss of or in respect of any Security or additional covenant relating to the Vendor Obligations, the Indemnified Amounts, or any part thereof, whether occasioned through the fault of Tarion or otherwise, shall discharge, diminish or in any way affect the liability of the Vendor hereunder."
+    },
+    {
+        "page": 17,
+        "line_start": 12,
+        "line_end": 15,
+        "clause": "This Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion."
+    },
+    {
+        "page": 17,
+        "line_start": 29,
+        "line_end": 34,
+        "clause": "The Vendor shall pay to Tarion on demand all reasonable costs and expenses (on a full indemnity basis) of Tarion, its officers, employees and agents and any receiver or receiver-manager appointed by it or by a court in connection with this Agreement, including, without limitation, in connection with: "
+    },
+    {
+        "page": 18,
+        "line_start": 42,
+        "line_end": 44,
+        "clause": "and further including, without limitation, all of the reasonable fees, expenses and disbursements of Tarion\u2019s lawyers, on a full indemnity basis, incurred in connection therewith and all sales or value-added taxes payable by Tarion (whether refundable or not) on all such costs and expenses."
+    }
+]
+
+
+
+
+Model: gpt-4o-mini
+Update: Finally sorted to prompt back to look for termination clauses only
+
+Relevant Chunks Found:
+[
+    {
+        "page": 9,
+        "line_start": 25,
+        "line_end": 34,
+        "clause": "provide Tarion with a true copy of such agreement or agreements between the Vendor and builder when applying for QFE or Enrolment under the ONHWP Act, and shall forthwith advise and provide appropriate replacement agreement(s) to Tarion should such agreement be terminated, modified or replaced with a similar agreement with another licensed builder."
+    },
+    {
+        "page": 16,
+        "line_start": 7,
+        "line_end": 10,
+        "clause": "permit any increase or decrease, however significant, of the Vendor Obligations or otherwise supplement, amend, restate or substitute, in whole or in part, however significant, the Vendor Obligations or any other agreement relating to any of the foregoing or, in whole or in part, terminate the availability of any agreement relating to, or demand repayment of any Vendor Obligations;"
+    },
+    {
+        "page": 17,
+        "line_start": 12,
+        "line_end": 15,
+        "clause": "This Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion."
+    }
+]
+
+
+
+
+Model: gpt-4o-mini
+Update: Removed max tokens, and changed temperature to 0.01
+
+Relevant Chunks Found:
+[
+    {
+        "page": 2,
+        "line_start": 44,
+        "line_end": 46,
+        "clause": "(c) a significant change in information concerning the servicing of warranties or protections for the Homes, and (d) the commencement of an Insolvency Proceeding or receipt of knowledge of an imminent Insolvency Proceeding."
+    },
+    {
+        "page": 9,
+        "line_start": 25,
+        "line_end": 34,
+        "clause": "provide Tarion with a true copy of such agreement or agreements between the Vendor and builder when applying for QFE or Enrolment under the ONHWP Act, and shall forthwith advise and provide appropriate replacement agreement(s) to Tarion should such agreement be terminated, modified or replaced with a similar agreement with another licensed builder."
+    },
+    {
+        "page": 16,
+        "line_start": 7,
+        "line_end": 10,
+        "clause": "permit any increase or decrease, however significant, of the Vendor Obligations or otherwise supplement, amend, restate or substitute, in whole or in part, however significant, the Vendor Obligations or any other agreement relating to any of the foregoing or, in whole or in part, terminate the availability of any agreement relating to, or demand repayment of any Vendor Obligations;"
+    },
+    {
+        "page": 17,
+        "line_start": 12,
+        "line_end": 15,
+        "clause": "This Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion."
+    }
+]
