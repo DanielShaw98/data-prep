@@ -30,7 +30,8 @@ def main():
         "      \"page\": <page_number>,"
         "      \"line_start\": <start_line_number>,"
         "      \"line_end\": <end_line_number>,"
-        "      \"clause\": <clause_text>"
+        "      \"clause\": <clause_text>,"
+        "      \"explanation\": <explanation_text>"
         "    }"
         "  ]"
         "}"
@@ -51,15 +52,18 @@ def main():
                     "page": res.get("page"),
                     "line_start": res.get("line_start"),
                     "line_end": res.get("line_end"),
-                    "clause": res.get("clause")
+                    "clause": res.get("clause"),
+                    "explanation": res.get("explanation")
                 })
         time.sleep(1)  # Add a delay between requests to avoid hitting rate limits
 
     # Display relevant chunks as JSON
     if relevant_chunks:
-        print("\nRelevant Chunks Found:")
+        print("\nDisclaimer: I may not always be correct in my findings, and it is always a good idea for you to verify the results yourself.")
+        print(f"\nRelevant Chunks Found: {len(relevant_chunks)}")
         print(json.dumps(relevant_chunks, indent=4))
     else:
+        print("\nDisclaimer: I may not always be correct in my findings, and it is always a good idea for you to verify the results yourself.")
         print("No relevant chunks found.")
 
 if __name__ == "__main__":

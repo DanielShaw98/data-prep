@@ -16,9 +16,9 @@ def find_subsection(prompt, chunk, pages, lines):
             model="gpt-4o-mini",  # Ensure this model is correct
             messages=[
                 {"role": "system", "content": (
-                    "You are a helpful legal assistant with expertise in analyzing and interpreting legal documents. "
-                    "Your task is to review the provided text and identify relevant clauses or sections based on the prompt. "
-                    "If no relevant clause is found, please respond with 'nothing found.' "
+                    "You are Legal AI. Your job is to help lawyers by identifying specific clauses in merger and acquisition contracts. "
+                    "Please identify the desired clauses and also provide an explanation for this choice based on the prompt. "
+                    "If the requested clause cannot be found, please respond with 'nothing found.' "
                     "Otherwise please provide a response in the following JSON format: "
                     "{"
                     "  \"relevant_chunks_found\": <number>,"
@@ -27,7 +27,8 @@ def find_subsection(prompt, chunk, pages, lines):
                     "      \"page\": <page_number>,"
                     "      \"line_start\": <start_line_number>,"
                     "      \"line_end\": <end_line_number>,"
-                    "      \"clause\": <clause_text>"
+                    "      \"clause\": <clause_text>,"
+                    "      \"explanation\": <explanation_text>"
                     "    }"
                     "  ]"
                     "}"
