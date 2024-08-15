@@ -819,3 +819,65 @@ Relevant Chunks Found:
         "clause": "This Agreement shall be in full force and effect from the Effective Date until all Vendor Obligations have been duly discharged and all Indemnified Amounts have been paid to Tarion."
     }
 ]
+
+
+
+
+Model: gpt-4o-mini
+Update: Using Suhayl's merger contact. Added in disclaimer, number of relevant chunks found and explanation to the json object
+Notes: Some page numbers and line starts are very accurate others not so much. Not receiving full clause, I wonder if it's being cut off via the chunking?
+
+Disclaimer: I may not always be correct in my findings, and it is always a good idea for you to verify the results yourself.
+
+Relevant Chunks Found: 7
+[
+    {
+        "page": 10,
+        "line_start": 4,
+        "line_end": 9,
+        "clause": "Section 1.9 Term of Agreement. If the Closing does not occur by December 31, 2014, or such earlier time as the Company",
+        "explanation": "This clause outlines a termination condition based on the failure to close the transaction by a specified date, which is a common provision in merger and acquisition agreements to protect parties from indefinite obligations."
+    },
+    {
+        "page": 10,
+        "line_start": 10,
+        "line_end": 18,
+        "clause": "determines not to proceed with the IPO (the \u201cTermination Date\u201d), this Agreement shall be deemed terminated and shall be of no further force and effect and none of the Company, the Operating Partnership or the Management Company shall have any further obligations hereunder except as specifically set forth in this Agreement.",
+        "explanation": "This clause outlines the conditions under which the agreement will be terminated, specifically if the decision is made not to proceed with the IPO. It clarifies the implications of termination, indicating that the agreement will cease to have effect and that the parties will have no further obligations, except for those explicitly stated."
+    },
+    {
+        "page": 10,
+        "line_start": 28,
+        "line_end": 40,
+        "clause": "(vi) All necessary consents and approvals of Governmental Authorities or third parties for the Management Company to consummate the transactions contemplated hereby (except for those the absence of which would not have a material adverse effect on the ability of the Management Company to consummate the transactions contemplated by this Agreement) shall have been obtained; (vii) No order, statute, rule, regulation, executive order, injunction, stay, decree, judgment or restraining order shall",
+        "explanation": "This clause outlines conditions that must be met for the agreement to proceed, including obtaining necessary consents and approvals, and the absence of legal impediments. These are critical termination conditions as failure to meet them could lead to the termination of the agreement."
+    },
+    {
+        "page": 12,
+        "line_start": 15,
+        "line_end": 20,
+        "clause": "Any or all of the foregoing conditions may be waived by the Operating Partnership (on its behalf and on behalf of the Company) in its sole and absolute discretion. (c) Conditions to Obligations of the Management Company. The obligations of the Management Company to effect the transactions contemplated hereby shall be subject to the satisfaction or waiver of the following conditions (it being understood that the provisions of Section 2.1(a) and this Section 2.1(c) shall be the only conditions to the obligations of the Management Company and that, without limiting any of the Company\u2019s or the Operating Partnership\u2019s duties, covenants or obligations expressed elsewhere in this",
+        "explanation": "This clause outlines the conditions under which the obligations of the Management Company can be terminated or waived, indicating that the Operating Partnership has the discretion to waive conditions, which is a critical aspect of termination conditions in merger and acquisition agreements."
+    },
+    {
+        "page": 12,
+        "line_start": 31,
+        "line_end": 38,
+        "clause": "Unless this Agreement shall have been terminated pursuant to Section 1.9, and subject to the satisfaction or waiver of the conditions in Section 2.1, the filing of the Merger Certificate, the Effective",
+        "explanation": "This clause indicates that the agreement can be terminated under the conditions specified in Section 1.9, which is a critical aspect of termination conditions in merger and acquisition contracts."
+    },
+    {
+        "page": 21,
+        "line_start": 18,
+        "line_end": 23,
+        "clause": "Agreement does or will, with or without the giving of notice, lapse of time, or both, violate, conflict with, result in a breach of, or constitute a default under or give to others any right of termination, acceleration, cancellation or other right under, (i) the Organizational Documents of the Management Company, (ii) any material agreement, document or instrument to which the Management Company or any of its assets or properties are bound or (iii) any material term or provision of any judgment, order, writ, injunction, or decree binding on the Management Company, except for, in the case of clause (ii) or (iii), any such breaches or defaults that would not, individually or in the aggregate, reasonably be expected to have a Material Adverse Effect.",
+        "explanation": "This clause outlines the conditions under which the agreement may be terminated or defaulted upon, including violations of organizational documents or material agreements. It specifies the rights of termination and the implications of breaches, which are critical in understanding the termination conditions of the contract."
+    },
+    {
+        "page": 24,
+        "line_start": 6,
+        "line_end": 11,
+        "clause": "the employment of each employee of the Management Company is terminable at will by the Management Company.",
+        "explanation": "This clause indicates that the Management Company has the right to terminate the employment of its employees at any time, which is a key aspect of termination conditions in employment agreements."
+    }
+]
