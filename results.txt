@@ -881,3 +881,125 @@ Relevant Chunks Found: 7
         "explanation": "This clause indicates that the Management Company has the right to terminate the employment of its employees at any time, which is a key aspect of termination conditions in employment agreements."
     }
 ]
+
+
+
+
+Model: gpt-4o-mini
+Update: Same test 1 less relevant chunk found?
+
+Disclaimer: I may not always be correct in my findings, and it is always a good idea for you to verify the results yourself.
+
+Relevant Chunks Found: 6
+[
+    {
+        "page": 10,
+        "line_start": 4,
+        "line_end": 9,
+        "clause": "Section 1.9 Term of Agreement. If the Closing does not occur by December 31, 2014, or such earlier time as the Company",
+        "explanation": "This clause outlines the termination condition related to the timing of the Closing. It specifies that if the Closing does not occur by a certain date, the agreement may be terminated, which is a critical aspect of merger and acquisition contracts."
+    },
+    {
+        "page": 10,
+        "line_start": 10,
+        "line_end": 18,
+        "clause": "determines not to proceed with the IPO (the \u201cTermination Date\u201d), this Agreement shall be deemed terminated and shall be of no further force and effect and none of the Company, the Operating Partnership or the Management Company shall have any further obligations hereunder except as specifically set forth in this Agreement.",
+        "explanation": "This clause outlines the conditions under which the agreement will be terminated, specifically if the decision is made not to proceed with the IPO. It clarifies the implications of termination, stating that the agreement will cease to have effect and that the parties will have no further obligations, except as specified."
+    },
+    {
+        "page": 12,
+        "line_start": 15,
+        "line_end": 20,
+        "clause": "Any or all of the foregoing conditions may be waived by the Operating Partnership (on its behalf and on behalf of the Company) in its sole and absolute discretion. (c) Conditions to Obligations of the Management Company. The obligations of the Management Company to effect the transactions contemplated hereby shall be subject to the satisfaction or waiver of the following conditions (it being understood that the provisions of Section 2.1(a) and this Section 2.1(c) shall be the only conditions to the obligations of the Management Company and that, without limiting any of the Company\u2019s or the Operating Partnership\u2019s duties, covenants or obligations expressed elsewhere in this",
+        "explanation": "This clause outlines the conditions under which the obligations of the Management Company can be terminated or waived, indicating that the Operating Partnership has the discretion to waive conditions, which is a critical aspect of termination conditions in merger and acquisition agreements."
+    },
+    {
+        "page": 12,
+        "line_start": 31,
+        "line_end": 38,
+        "clause": "Unless this Agreement shall have been terminated pursuant to Section 1.9, and subject to the satisfaction or waiver of the conditions in Section 2.1, the filing of the Merger Certificate, the Effective",
+        "explanation": "This clause indicates that the agreement can be terminated under the conditions specified in Section 1.9, which is a key aspect of termination conditions in merger and acquisition contracts. It sets the framework for when the agreement may no longer be valid, thus providing clarity on the termination process."
+    },
+    {
+        "page": 21,
+        "line_start": 18,
+        "line_end": 23,
+        "clause": "Agreement does or will, with or without the giving of notice, lapse of time, or both, violate, conflict with, result in a breach of, or constitute a default under or give to others any right of termination, acceleration, cancellation or other right under, (i) the Organizational Documents of the Management Company, (ii) any material agreement, document or instrument to which the Management Company or any of its assets or properties are bound or (iii) any material term or provision of any judgment, order, writ, injunction, or decree binding on the Management Company, except for, in the case of clause (ii) or (iii), any such breaches or defaults that would not, individually or in the aggregate, reasonably be expected to have a Material Adverse Effect.",
+        "explanation": "This clause outlines the conditions under which the agreement may be terminated or defaulted upon, including violations of organizational documents or material agreements. It specifies the rights of termination and the implications of breaches, which are critical in understanding the termination conditions of the contract."
+    },
+    {
+        "page": 24,
+        "line_start": 6,
+        "line_end": 11,
+        "clause": "the employment of each employee of the Management Company is terminable at will by the Management Company.",
+        "explanation": "This clause indicates that the employment of employees can be terminated at any time by the Management Company, which is a key aspect of termination conditions in employment agreements."
+    }
+]
+
+
+
+
+Model: gpt-4o-mini
+Update: Increased the size of the chunks to prevent clauses being cut off. Now 8 relevant chunks found.
+
+Disclaimer: I may not always be correct in my findings, and it is always a good idea for you to verify the results yourself.
+
+Relevant Chunks Found: 8
+[
+    {
+        "page": 10,
+        "line_start": 2,
+        "line_end": 9,
+        "clause": "If the Closing does not occur by December 31, 2014, or such earlier time as the Company",
+        "explanation": "This clause indicates a termination condition based on the failure to close the transaction by a specified date, which is a common provision in merger and acquisition agreements to protect parties from indefinite obligations."
+    },
+    {
+        "page": 10,
+        "line_start": 10,
+        "line_end": 10,
+        "clause": "determines not to proceed with the IPO (the \u201cTermination Date\u201d), this Agreement shall be deemed terminated and shall be of no further force and effect and none of the Company, the Operating Partnership or the Management Company shall have any further obligations hereunder except as specifically set forth in this Agreement.",
+        "explanation": "This clause outlines the conditions under which the agreement will be terminated, specifically if the decision is made not to proceed with the IPO. It clarifies that upon termination, the agreement ceases to have effect and specifies the obligations of the parties involved."
+    },
+    {
+        "page": 11,
+        "line_start": 5,
+        "line_end": 10,
+        "clause": "No order, statute, rule, regulation, executive order, injunction, stay, decree, judgment or restraining order shall have been enacted, issued, entered, promulgated or enforced by any court of competent jurisdiction or Governmental Authority that prohibits the consummation of the transactions contemplated hereby (which condition may not be waived by any party), nor shall any proceeding brought by a Governmental Authority of competent jurisdiction be pending that seeks the foregoing;",
+        "explanation": "This clause outlines the conditions under which the agreement may be terminated, specifically focusing on legal prohibitions that prevent the consummation of the transactions. It indicates that if any legal order or proceeding exists that prohibits the transaction, it constitutes a termination condition that cannot be waived, thus protecting the parties from proceeding under adverse legal circumstances."
+    },
+    {
+        "page": 11,
+        "line_start": 28,
+        "line_end": 41,
+        "clause": "(iii) There shall not have occurred between the date hereof and the Closing Date any material adverse change in the assets, business, financial condition or results of operation of the Management Company and its Subsidiaries, taken as a whole. It is understood that no material adverse change shall occur by reason of general economic conditions or economic conditions affecting the real estate market generally; (iv) The Principals shall have entered into the Representation, Warranty and Indemnity Agreement and the Escrow Agreement (and shall concurrently with Closing hereunder have funded the Indemnity Holdback Amount into the Indemnity Holdback Escrow); (v) There shall not have been a bankruptcy or similar insolvency proceeding with respect to the Management",
+        "explanation": "This clause outlines specific conditions that must be met prior to the closing of the merger, including the absence of material adverse changes and bankruptcy proceedings. These conditions are critical for determining whether the agreement can be terminated or if it remains valid, thus directly relating to termination conditions."
+    },
+    {
+        "page": 13,
+        "line_start": 5,
+        "line_end": 5,
+        "clause": "Unless this Agreement shall have been terminated pursuant to Section 1.9",
+        "explanation": "This clause indicates a condition under which the agreement can be terminated, specifically referencing Section 1.9, which likely outlines the specific termination conditions applicable to the agreement."
+    },
+    {
+        "page": 15,
+        "line_start": 20,
+        "line_end": 30,
+        "clause": "In the event that the Closing does not occur, each party shall be responsible for its allocable portion of such costs and expenses.",
+        "explanation": "This clause outlines the conditions under which the agreement may be terminated, specifically stating the responsibilities of each party if the Closing does not take place. It indicates that if the transaction fails to close, the parties will bear their respective costs, which is a common termination condition in merger and acquisition agreements."
+    },
+    {
+        "page": 21,
+        "line_start": 16,
+        "line_end": 22,
+        "clause": "does or will, with or without the giving of notice, lapse of time, or both, violate, conflict with, result in a breach of, or constitute a default under or give to others any right of termination, acceleration, cancellation or other right under",
+        "explanation": "This clause outlines the conditions under which the agreement may be terminated, including violations, conflicts, breaches, or defaults that could grant termination rights to other parties."
+    },
+    {
+        "page": 24,
+        "line_start": 6,
+        "line_end": 13,
+        "clause": "Other than as set forth in the Consent Solicitation or the Prospectus, the employment of each employee of the Management Company is terminable at will by the Management Company.",
+        "explanation": "This clause indicates that the employment of each employee can be terminated at any time by the Management Company, which is a key termination condition. It establishes the at-will nature of employment, allowing for termination without cause."
+    }
+]
