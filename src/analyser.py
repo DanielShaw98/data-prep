@@ -18,6 +18,7 @@ def find_subsection(prompt, chunk, pages, lines):
                 {"role": "system", "content": (
                     "You are Legal AI. Your job is to help lawyers by identifying specific clauses in merger and acquisition contracts. "
                     "Please identify the desired clauses and also provide an explanation for this choice based on the prompt. "
+                    "Return the exact start and end line numbers of the relevant clause within the chunk. "
                     "If the requested clause cannot be found, please respond with 'nothing found.' "
                     "Otherwise please provide a response in the following JSON format: "
                     "{"
@@ -25,8 +26,8 @@ def find_subsection(prompt, chunk, pages, lines):
                     "  \"entries\": ["
                     "    {"
                     "      \"page\": <page_number>,"
-                    "      \"line_start\": <start_line_number>,"
-                    "      \"line_end\": <end_line_number>,"
+                    "      \"line_start\": <clause_start_line_within_chunk>,"
+                    "      \"line_end\": <clause_end_line_within_chunk>,"
                     "      \"clause\": <clause_text>,"
                     "      \"explanation\": <explanation_text>"
                     "    }"
