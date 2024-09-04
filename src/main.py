@@ -139,8 +139,8 @@ def main(contract_files, queries):
 
 if __name__ == "__main__":
     contract_files = [
-        '../data/contracts/Form_Of_Merger_Agreement.pdf',
-        '../data/contracts/Merger_Agreement.pdf'
+        '../data/contracts/Agreement_And_Plan_Of_Merger.pdf',
+        '../data/contracts/merger-agreement-2.pdf'
     ]
 
     queries = [
@@ -153,7 +153,9 @@ if __name__ == "__main__":
         "Review the provided text and identify all clauses related to non-compete and non-solicitation agreements. ",
         "Review the provided text and identify all clauses related to confidentiality and non-disclosure obligations. ",
         "Review the provided text and identify all clauses related to escrow or holdback provisions. ",
-        "Review the provided text and identify all clauses related to dispute resolution mechanisms. "
+        "Review the provided text and identify all clauses related to dispute resolution mechanisms. ",
+        "Review the provided text and identify all clauses related to exclusivity. ",
+        "Review the provided text and identify all clauses related to employment agreements. "
     ]
 
     main(contract_files, queries)
