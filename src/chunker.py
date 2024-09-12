@@ -1,4 +1,4 @@
-def chunk_text(page_texts, min_chunk_size=35000, max_chunk_size=40000, overlap_size=5000):
+def chunk_text(page_texts, min_chunk_size=2500, max_chunk_size=5000, overlap_size=500):
     import re
 
     chunks = []

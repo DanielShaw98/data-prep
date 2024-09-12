@@ -140,8 +140,8 @@ def main(contract_files, queries):
 if __name__ == "__main__":
     contract_files = [
         # '../data/contracts/Agreement_And_Plan_Of_Merger.pdf',
-        # '../data/contracts/merger-agreement-2.pdf',
-        '../data/contracts/Form_Of_Merger_Agreement.pdf'
+        '../data/contracts/merger-agreement-2.pdf'
+        # '../data/contracts/Form_Of_Merger_Agreement.pdf',
         # '../data/contracts/Merger_Agreement.pdf'
     ]
 
