@@ -1,20 +1,19 @@
-def chunk_text(page_texts, min_chunk_size=500, max_chunk_size=1000, overlap_size=100):
+def chunk_text(page_texts, min_chunk_size=35000, max_chunk_size=40000, overlap_size=5000):
     import re
 
     chunks = []
     current_chunk = ""
     current_page_numbers = []
     current_line_numbers = []
-    line_offset = 0
+    global_line_number = 1  # Global line number across all chunks
 
     for page_number, text in page_texts:
-        paragraphs = re.split(r'\n+', text.strip())
-        line_number = 1
+        paragraphs = re.split(r'\n+', text.strip())  # Splitting paragraphs based on newlines
+        line_number = 1  # Local line number for the current page
 
         for para in paragraphs:
             para_length = len(para)
-            para_lines = para.split('\n')
-            para_line_count = len(para_lines)
+            para_line_count = para.count('\n') + 1  # Counting lines by newline symbols in the paragraph
 
             # If the current chunk plus the new paragraph exceeds max_chunk_size, finalize the current chunk
             if len(current_chunk) + para_length + 1 > max_chunk_size:
@@ -33,19 +32,18 @@ def chunk_text(page_texts, min_chunk_size=500, max_chunk_size=1000, overlap_size
                     current_chunk = ""
                     current_page_numbers = []
                     current_line_numbers = []
-                    line_offset = 0
 
                 current_chunk = para + '\n'
                 current_page_numbers = [page_number]
-                current_line_numbers = [line_number + line_offset]
+                current_line_numbers = [global_line_number]
             else:
                 current_chunk += para + '\n'
                 if page_number not in current_page_numbers:
                     current_page_numbers.append(page_number)
-                current_line_numbers.append(line_number + line_offset)
+                current_line_numbers.append(global_line_number)
 
+            global_line_number += para_line_count  # Increment the global line number based on the paragraph's line count
             line_number += para_line_count
-        line_offset = line_number - 1
 
         # Add overlap if the current chunk is close to max_chunk_size
         if len(current_chunk) >= max_chunk_size - overlap_size:
@@ -53,7 +51,6 @@ def chunk_text(page_texts, min_chunk_size=500, max_chunk_size=1000, overlap_size
             current_chunk = ""
             current_page_numbers = []
             current_line_numbers = []
-            line_offset = 0
 
     if current_chunk:
         chunks.append((current_page_numbers, current_line_numbers, current_chunk.strip()))

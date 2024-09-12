@@ -2,7 +2,7 @@ from pdf_parser import parse_pdf, get_metadata
 from chunker import chunk_text
 
 def main():
-    file_path = '../data/contracts/Form_Of_Merger_Agreement.pdf'
+    file_path = '../data/contracts/merger-agreement-2.pdf'
 
     contract_text, page_texts = parse_pdf(file_path)
     print("Contract Text Parsed Successfully")
