@@ -1,6 +1,7 @@
 import fs from 'fs';
 
-const filePath = 'outputs.json';
+// const filePath = './chunk_testing/outputs-2500(1).json';
+// const filePath = './datasets/merged-11.09.24.json';
 
 const countResults = (filePath) => {
   try {
