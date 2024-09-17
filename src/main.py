@@ -143,7 +143,7 @@ if __name__ == "__main__":
         # '../data/contracts/merger-agreement-1.pdf'
         # '../data/contracts/merger-agreement-2.pdf'
         # '../data/contracts/merger-agreement-3.pdf'
-        '../data/contracts/merger-agreement-4.pdf'
+        # '../data/contracts/merger-agreement-4.pdf'
     ]
 
     queries = [

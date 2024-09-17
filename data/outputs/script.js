@@ -1,4 +1,4 @@
-import data from './merged-11.09.24.json' assert { type: "json" };
+import data from './reduced_merged.json' assert { type: "json" };
 import fs from 'fs';
 
 function reformatJSON(input) {
@@ -36,7 +36,7 @@ function reformatConversation(input) {
 
 const reformattedData = reformatJSON(data);
 
-fs.writeFile('merged-11.09.24-reformatted+conversation.json', JSON.stringify(reformattedData), (err) => {
+fs.writeFile('reduced_merged-reformatted+conversation.json', JSON.stringify(reformattedData), (err) => {
   if (err) throw err;
   console.log('Data has been written to the file');
 });
