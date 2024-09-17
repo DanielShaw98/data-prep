@@ -2,7 +2,7 @@ import fs from 'fs';
 
 // const filePath = './chunk_testing/outputs-2500(4).json';
 // const filePath = './reduced_outputs/reduced_output-2500(4).json';
-const filePath = './reduced_merged.json';
+const filePath = './reduced_outputs/reduced_mergedx2.json';
 // const filePath = './datasets/merged-11.09.24.json';
 
 const countResults = (filePath) => {

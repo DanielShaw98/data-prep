@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-const filePath = './chunk_testing/outputs-2500(4).json'; // Input JSON file path
-const outputFilePath = './reduced_outputs/reduced_output-2500(4).json'; // Output JSON file path
+const filePath = './reduced_outputs/reduced_merged.json'; // Input JSON file path
+const outputFilePath = './reduced_outputs/reduced_mergedx2.json'; // Output JSON file path
 
 const reduceNothingFound = (filePath, outputFilePath) => {
   try {
