@@ -139,11 +139,10 @@ def main(contract_files, queries):
 
 if __name__ == "__main__":
     contract_files = [
-        # Add commas back!!!
-        # '../data/contracts/merger-agreement-1.pdf'
-        # '../data/contracts/merger-agreement-2.pdf'
-        # '../data/contracts/merger-agreement-3.pdf'
-        # '../data/contracts/merger-agreement-4.pdf'
+        '../data/contracts/merger-agreement-1.pdf',
+        '../data/contracts/merger-agreement-2.pdf',
+        '../data/contracts/merger-agreement-3.pdf',
+        '../data/contracts/merger-agreement-4.pdf'
     ]
 
     queries = [
