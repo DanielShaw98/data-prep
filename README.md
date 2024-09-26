@@ -80,7 +80,7 @@ To set up the project locally:
 
 1.    Clone the repository:  
 
-    git clone https://github.com/your-username/data-prep.git
+    git clone https://github.com/yDanielShaw98/data-prep.git
     cd data-prep  
 
 2.   Install the necessary Python dependencies:  
