@@ -6,6 +6,8 @@ import fs from 'fs';
 // const filePath = './reduced_outputs2/reduced_merged_targeted.json';
 // const filePath = './reduced_outputs2/reduced_merged_targeted2.json';
 // const filePath = './reduced_outputs2/reduced_merged_targeted3.json';
+// const filePath = './final_outputs/outputs_final_structured.json';
+const filePath = './final_outputs/reduced_final_structured.json';
 
 // Define the specific queries you want to check against
 const queries = [
@@ -90,76 +92,81 @@ const countResults = (filePath) => {
 // Call the function to count results
 countResults(filePath);
 
-// Results (without reducing "nothing found" responses):
+// Results for outputs_final_structured.json
 
-// Termination rights and conditions:
-// "Nothing found" for specific query: 1168
-// "Clauses found" for specific query: 79
-// Percentage of "Nothing found" for specific query: 93.66%
-// Percentage of "Clauses found" for specific query: 6.34%
+// Results for query: "Review the provided text and identify all clauses related to termination rights and conditions."
+// "Nothing found": 776
+// "Clauses found": 117
+// Percentage of "Nothing found": 86.90%
+// Percentage of "Clauses found": 13.10%
 
-// Representations and warranties:
-// "Nothing found" for specific query: 1134
-// "Clauses found" for specific query: 113
-// Percentage of "Nothing found" for specific query: 90.94%
-// Percentage of "Clauses found" for specific query: 9.06%
+// Results for query: "Review the provided text and identify all clauses related to representations and warranties."
+// "Nothing found": 740
+// "Clauses found": 153
+// Percentage of "Nothing found": 82.87%
+// Percentage of "Clauses found": 17.13%
 
-// Indemnification:
-// "Nothing found" for specific query: 1208
-// "Clauses found" for specific query: 39
-// Percentage of "Nothing found" for specific query: 96.87%
-// Percentage of "Clauses found" for specific query: 3.13%
+// Results for query: "Review the provided text and identify all clauses related to indemnification."
+// "Nothing found": 839
+// "Clauses found": 54
+// Percentage of "Nothing found": 93.95%
+// Percentage of "Clauses found": 6.05%
 
-// Closing conditions:
-// "Nothing found" for specific query: 1095
-// "Clauses found" for specific query: 152
-// Percentage of "Nothing found" for specific query: 87.81%
-// Percentage of "Clauses found" for specific query: 12.19%
+// Results for query: "Review the provided text and identify all clauses related to closing conditions."
+// "Nothing found": 691
+// "Clauses found": 202
+// Percentage of "Nothing found": 77.38%
+// Percentage of "Clauses found": 22.62%
 
-// Material Adverse Change (MAC) provisions:
-// "Nothing found" for specific query: 1201
-// "Clauses found" for specific query: 46
-// Percentage of "Nothing found" for specific query: 96.31%
-// Percentage of "Clauses found" for specific query: 3.69%
+// Results for query: "Review the provided text and identify all clauses related to Material Adverse Change (MAC) provisions."
+// "Nothing found": 841
+// "Clauses found": 52
+// Percentage of "Nothing found": 94.18%
+// Percentage of "Clauses found": 5.82%
 
-// Purchase price adjustments:
-// "Nothing found" for specific query: 1236
-// "Clauses found" for specific query: 11
-// Percentage of "Nothing found" for specific query: 99.12%
-// Percentage of "Clauses found" for specific query: 0.88%
+// Results for query: "Review the provided text and identify all clauses related to purchase price adjustments."
+// "Nothing found": 859
+// "Clauses found": 34
+// Percentage of "Nothing found": 96.19%
+// Percentage of "Clauses found": 3.81%
 
-// Non-compete and non-solicitation agreements:
-// "Nothing found" for specific query: 1241
-// "Clauses found" for specific query: 6
-// Percentage of "Nothing found" for specific query: 99.52%
-// Percentage of "Clauses found" for specific query: 0.48%
+// Results for query: "Review the provided text and identify all clauses related to non-compete and non-solicitation agreements."
+// "Nothing found": 882
+// "Clauses found": 11
+// Percentage of "Nothing found": 98.77%
+// Percentage of "Clauses found": 1.23%
 
-// Confidentiality and non-disclosure obligations:
-// "Nothing found" for specific query: 1217
-// "Clauses found" for specific query: 30
-// Percentage of "Nothing found" for specific query: 97.59%
-// Percentage of "Clauses found" for specific query: 2.41%
+// Results for query: "Review the provided text and identify all clauses related to confidentiality and non-disclosure obligations."
+// "Nothing found": 846
+// "Clauses found": 47
+// Percentage of "Nothing found": 94.74%
+// Percentage of "Clauses found": 5.26%
 
-// Escrow or holdback provisions:
-// "Nothing found" for specific query: 1238
-// "Clauses found" for specific query: 9
-// Percentage of "Nothing found" for specific query: 99.28%
-// Percentage of "Clauses found" for specific query: 0.72%
+// Results for query: "Review the provided text and identify all clauses related to escrow or holdback provisions."
+// "Nothing found": 885
+// "Clauses found": 8
+// Percentage of "Nothing found": 99.10%
+// Percentage of "Clauses found": 0.90%
 
-// Dispute resolution mechanisms:
-// "Nothing found" for specific query: 1215
-// "Clauses found" for specific query: 32
-// Percentage of "Nothing found" for specific query: 97.43%
-// Percentage of "Clauses found" for specific query: 2.57%
+// Results for query: "Review the provided text and identify all clauses related to dispute resolution mechanisms."
+// "Nothing found": 850
+// "Clauses found": 43
+// Percentage of "Nothing found": 95.18%
+// Percentage of "Clauses found": 4.82%
 
-// Exclusivity:
-// "Nothing found" for specific query: 640
-// "Clauses found" for specific query: 15
-// Percentage of "Nothing found" for specific query: 97.71%
-// Percentage of "Clauses found" for specific query: 2.29%
+// Results for query: "Review the provided text and identify all clauses related to exclusivity."
+// "Nothing found": 835
+// "Clauses found": 58
+// Percentage of "Nothing found": 93.51%
+// Percentage of "Clauses found": 6.49%
 
-// Employment agreements:
-// "Nothing found" for specific query: 625
-// "Clauses found" for specific query: 30
-// Percentage of "Nothing found" for specific query: 95.42%
-// Percentage of "Clauses found" for specific query: 4.58%
+// Results for query: "Review the provided text and identify all clauses related to employment agreements."
+// "Nothing found": 790
+// "Clauses found": 103
+// Percentage of "Nothing found": 88.47%
+// Percentage of "Clauses found": 11.53%
+
+// Overall "Nothing found" count: 9834
+// Overall "Clauses found" count: 882
+// Overall Percentage of "Nothing found": 91.77%
+// Overall Percentage of "Clauses found": 8.23%
