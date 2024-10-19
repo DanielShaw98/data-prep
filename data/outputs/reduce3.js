@@ -104,7 +104,7 @@ const reduceNothingFoundTargetted = (filePath, outputFilePath) => {
 // Example usage
 reduceNothingFoundTargetted(filePath, outputFilePath);
 
-// Results for reduced_final_structured.json
+// Results for shuffled_reduced_final_structured.json
 
 // Results for query: "Review the provided text and identify all clauses related to termination rights and conditions."
 // "Nothing found": 194

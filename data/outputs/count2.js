@@ -7,7 +7,8 @@ import fs from 'fs';
 // const filePath = './reduced_outputs2/reduced_merged_targeted2.json';
 // const filePath = './reduced_outputs2/reduced_merged_targeted3.json';
 // const filePath = './final_outputs/outputs_final_structured.json';
-const filePath = './final_outputs/reduced_final_structured.json';
+// const filePath = './final_outputs/reduced_final_structured.json';
+const filePath = './final_outputs/shuffled_reduced_final_structured.json';
 
 // Define the specific queries you want to check against
 const queries = [
