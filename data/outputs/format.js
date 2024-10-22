@@ -1,4 +1,4 @@
-import data from './reduced_outputs/reduced_mergedx2.json' assert { type: "json" };
+import data from './final_outputs/shuffled_reduced_final_structured.json' assert { type: "json" };
 import fs from 'fs';
 
 function reformatJSON(input) {
@@ -36,7 +36,7 @@ function reformatConversation(input) {
 
 const reformattedData = reformatJSON(data);
 
-fs.writeFile('reduced_mergedx2-reformatted+conversation.json', JSON.stringify(reformattedData), (err) => {
+fs.writeFile('shuffled_reduced_final_structured-reformatted+conversation.json', JSON.stringify(reformattedData), (err) => {
   if (err) throw err;
   console.log('Data has been written to the file');
 });
